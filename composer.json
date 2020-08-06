@@ -1,0 +1,16 @@
+{
+    "name": "projectcosmic/config_import_missing_content",
+    "description": "Automatically creates missing content entities that are dependencies in config.",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Justin Wong",
+            "role": "Developer",
+            "email": "justin@cosmic.org.uk",
+            "homepage": "https://cosmic.org.uk"
+        }
+    ],
+    "require": {
+        "drupal/core": "^8 || ^9"
+    }
+}

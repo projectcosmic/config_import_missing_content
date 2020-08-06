@@ -1,0 +1,6 @@
+services:
+  config_import_missing_content.event_subscriber:
+    class: Drupal\config_import_missing_content\EventSubscriber\ConfigImportMissingContentSubscriber
+    arguments: ['@entity_type.manager', '@config.storage.active', '@logger.channel.default', '@string_translation']
+    tags:
+      - { name: event_subscriber }
