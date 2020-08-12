@@ -18,7 +18,7 @@ class ConfigImportTest extends KernelTestBase {
   protected static $modules = [
     'block',
     'block_content',
-    'devongar_helper',
+    'config_import_missing_content',
     'system',
     'user',
   ];
